@@ -31,7 +31,7 @@ const App = () => {
           <input type="email" value={email} onChange={handleEmailChange} />
         </label>
       </div>
-      <div style={{ marginTop: "20px" }}>
+      <div className="output" style={{ marginTop: "20px" }}>
         <h2>Current values in store:</h2>
         <p>Name - {name}</p>
         <p>Email - {email}</p>
